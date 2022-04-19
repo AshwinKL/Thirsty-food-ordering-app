@@ -1,0 +1,86 @@
+.meals {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.meals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.loading {
+  text-align: center;
+  font-size: 1.4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading p {
+  background-color: rgb(187, 14, 14);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  padding: 1.5rem;
+  width: 50%;
+  font-size: 1.2rem;
+  color: white;
+}
+.showButton {
+  padding: 1rem 0rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 46, 46);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin: 2rem 0 1rem 0;
+}
+.showButton button {
+  border: none;
+  padding: 0.1rem 3rem;
+  font-size: 0.2rem;
+  font: inherit;
+  color: #111;
+  border-radius: 14px;
+  transition: all 200ms;
+}
+.showButton button:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  transform: scale(1.02);
+}
+.icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 0.5rem;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error {
+  text-align: center;
+  padding: 1rem 0rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(187, 14, 14);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  color: white;
+}
