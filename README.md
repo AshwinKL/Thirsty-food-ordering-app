@@ -22,4 +22,4 @@ Fully functional food ordering app created using React JS with firebase backend.
 </p>
 <br/>
 
-## Watch the live site preview [here]()
+## Watch the live site preview [here](https://thirsty-food.netlify.app/)
